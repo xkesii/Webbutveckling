@@ -1,8 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
-}
-*{
+  padding: 0px;
   background: url(https://www.nme.com/wp-content/uploads/2019/08/POSTMALONE_7960_JF.jpg) no-repeat center fixed;
   background-size: cover;
 }
@@ -11,12 +9,15 @@ header{
   height: 600px;
 }
   h1{
+    text-shadow: 5px 5px black;
     font-family:"Lobster";
     font-size: 109.8px;
     text-align: Center;
     color: White;
   }
   #PostQuote {
+    text-shadow: 3px 3px black;
+    margin-top: 25px;
     text-align: center;
     font-size: 39px;
     font-family: cursive;
@@ -44,13 +45,27 @@ img{
   color: rgba(255, 255, 255, 2);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
+h3{
+  font-family: "Lobster";
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+  text-shadow: 3px 3px purple;
+}
 h2{
+  text-shadow: 3px 3px blue;
+  font-family: helvetica;
   width: auto;
   height: 400px;
-  padding: 100px;
+  padding: 50px;
   margin-right: auto;
-  border: 100px;
+  border: 50px;
   text-transform: none;
   color: White;
-  margin-top: 250px;
+  margin-top: 25px;
+}
+hr{
+  margin-top: 100px;
+  border: 1px solid white;
 }
