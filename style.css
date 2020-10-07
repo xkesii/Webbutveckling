@@ -23,7 +23,7 @@ header{
     font-family: cursive;
     color: White;
   }
-img{
+.hobo{
   height: 500px;
   width: 500px;
   border-radius: 50%;
@@ -34,12 +34,14 @@ img{
 .button {
   text-decoration: inherit;
   color: rgba(255, 255, 255, 0.8);
-  background: rgb(145, 92, 182);
+  background: rgb(210,105,30);
   padding: 15px 40px;
   border-radius: 4px;
   font-weight: lighter;
   text-transform: uppercase;
   transition: all 0.35s ease-in-out;
+  position: relative;
+  left: 47%;
 }
 .glow-button:hover {
   color: rgba(255, 255, 255, 2);
@@ -54,10 +56,10 @@ h3{
   text-shadow: 3px 3px purple;
 }
 h2{
-  text-shadow: 3px 3px blue;
+  text-shadow: 3px 3px brown;
   font-family: helvetica;
   width: auto;
-  height: 400px;
+  height: 300px;
   padding: 50px;
   margin-right: auto;
   border: 50px;
@@ -68,4 +70,15 @@ h2{
 hr{
   margin-top: 100px;
   border: 1px solid white;
+}
+.Hollywood {
+  height:250px;
+  border-radius: 15%;
+  position: relative;
+  left: 25%;
+}
+.iverson {
+  position: relative;
+ left: 50%;
+ border-radius: 15%;
 }
