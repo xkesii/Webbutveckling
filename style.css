@@ -10,10 +10,47 @@ header{
   height: 600px;
 }
 /*********************************************/
+.Firework1 {
+  position: absolute;
+  top: 10%;
+}
+/*********************************************/
+.Firework2 {
+  position: absolute;
+top: 22%;
+right: 5%;
+}
+/*********************************************/
+.Firework3 {
+  position: absolute;
+top: 166%;
+left: 18%;
+width: 570px;
+height: 570px;
+border-radius: 50%;
+}
+/*********************************************/
+.Firework4 {
+  position: absolute;
+top: 166%;
+left: 55%;
+width: 570px;
+height: 570px;
+border-radius:50%;
+}
+/*********************************************/
+.Firework5 {
+  position: absolute;
+top: 140%;
+border-radius: 50%;
+width: 400px;
+height: 400px;
+}
+/*********************************************/
   h1{
     text-shadow: 5px 5px black;
     font-family:"Lobster";
-    font-size: 109.8px;
+    font-size: 110px;
     text-align: Center;
     color: White;
   }
@@ -136,7 +173,7 @@ h4{
   font-family: Lobster;
   color: white;
   text-align:center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   text-decoration: underline;
   text-shadow: 3px 3px orange;
 }
