@@ -1,8 +1,10 @@
-*{
+*{ /*Tag that refers to the whole page*/
   margin: 0;
   padding: 0px;
   background: url(https://www.nme.com/wp-content/uploads/2019/08/POSTMALONE_7960_JF.jpg) no-repeat center fixed;
+  /*This is the main background that follows the page as you scroll*/
   background-size: cover;
+  /*Makes the picture cover the whole webpage*/
 }
 /*********************************************/
 header{
@@ -10,116 +12,88 @@ header{
   height: 600px;
 }
 /*********************************************/
-.Firework1 {
-  position: absolute;
-  top: 10%;
+ #PostQuote { /*Tagging the ID*/
+text-shadow: 3px 3px black; /*Giving the text a shadow with 3px*3px color black*/
+margin-top: 25px; /*Spacing on the top side*/
+text-align: center; /*Text moves to the center of the page*/
+font-size: 39px; /*Size of the font*/
+font-family: cursive; /*Giving the text a cursive font*/
+color: White; /*Defining of the text*/
+  }
+/*********************************************/
+.Firework1 { /*Tagging a Class and opening a bracket*/
+  position: absolute; /*Making the position absolute, meaning it doesn't interfere with any elements*/
+  top: 10%; /*Is 10% downwards from the top of the page*/
 }
 /*********************************************/
-.Firework2 {
+.Firework2 { 
   position: absolute;
-top: 22%;
-right: 5%;
+top: 22%; 
+right: 5%; /*Is 5% right of the left side of the page*/
 }
 /*********************************************/
-.Firework3 {
-  position: absolute;
-top: 166%;
+.Firework3 { 
+  position: absolute; 
+top: 176.5%; 
 left: 18%;
-width: 570px;
-height: 570px;
+width: 570px; /*Giving the picture the desired dimensions*/
+height: 570px; /*Giving the picture the desired dimensions*/
+border-radius: 50%; /*Here I had to do this since the pictures was too big on the edges and
+I had to shave off the borders somehow, which turned out great*/
+}
+/*********************************************/
+.Firework4 { 
+  position: absolute; 
+top: 174%; 
+left: 55%; 
+width: 570px; 
+height: 570px; 
+border-radius:50%; 
+}
+/*********************************************/
+.Firework5 { /*Tagging a Class and opening a bracket*/
+  position: absolute; /*Making the position absolute,
+   meaning it doesn't interfere with any elements*/
+top: 145%; /*Is 140% downwards from the top of the page*/
 border-radius: 50%;
+width: 400px; 
+height: 400px; 
 }
 /*********************************************/
-.Firework4 {
-  position: absolute;
-top: 166%;
-left: 55%;
-width: 570px;
-height: 570px;
-border-radius:50%;
-}
-/*********************************************/
-.Firework5 {
-  position: absolute;
-top: 140%;
-border-radius: 50%;
-width: 400px;
-height: 400px;
-}
-/*********************************************/
-  h1{
-    text-shadow: 5px 5px black;
-    font-family:"Lobster";
-    font-size: 110px;
-    text-align: Center;
-    color: White;
-  }
-  /*********************************************/
-  #PostQuote {
-    text-shadow: 3px 3px black;
-    margin-top: 25px;
-    text-align: center;
-    font-size: 39px;
-    font-family: cursive;
-    color: White;
-  }
-/*********************************************/
-.hobo{
-  height: 500px;
+.hobo{ /*Tagging the main picture*/
+  height: 500px; 
   width: 500px;
   border-radius: 50%;
-  display: block;
+  display: block; /*Starts on a new line and takes the whole width*/
   margin-right: auto;
   margin-left: auto;
-  background: orange;
-  padding:10px;
+  background: orange; /*Sets the background of the image orange
+  so it looks like a shadow.*/
+  padding:10px;/*Gives the picture 10px of padding which 
+  we use as a shadow by using background orange*/
 }
 /*********************************************/
-.button {
-  text-decoration: inherit;
-  color: rgba(255, 255, 255, 0.8);
-  background: rgb(210,105,30);
+.button { /*Tagging a Class and opening a bracket*/
+  text-decoration: inherit; /*Inherits the values of parent element*/
+  color: rgba(255, 255, 255, 0.8); /*Determines the color of text*/
+  background: rgb(210,105,30); /*Determines background color of the box around the text*/
   padding: 15px 40px;
   border-radius: 20px;
-  font-weight: lighter;
-  text-transform: uppercase;
-  transition: all 0.35s ease-in-out;
-  position: relative;
+  font-weight: lighter; /*Gives the text a light appearance*/
+  text-transform: uppercase; /*Makes all the text uppercase*/
+  position: relative; /*Positioned relative, so normal.*/
   left: 47%;
   text-shadow: 1.5px 1.5px black;
 }
 /*********************************************/
-.glow-button:hover {
+.glow-button:hover { /*Tagging the button class and giving it a hover function*/
   color: rgba(255, 255, 255, 2);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 /*********************************************/
-h3{
-  font-family: "Lobster";
-  color: white;
-  font-size: 50px;
-  text-align: center;
-  margin-top: 200px;
-  text-shadow: 3px 3px purple;
-  text-decoration: overline;
-}
-/*********************************************/
-h2{
-  text-shadow: 3px 3px brown;
-  font-family: helvetica;
-  width: auto;
-  height: 300px;
-  padding: 50px;
-  margin-right: auto;
-  border: 50px;
-  text-transform: none;
-  color: White;
-  margin-top: 25px;
-}
-/*********************************************/
-hr{
+hr{ /*Creating the straight line*/
   margin-top: 100px;
-  border: 1px solid white;
+  border: 1px solid white; /*Making it 1px with white border*/
 }
 /*********************************************/
 .Hollywood {
@@ -130,7 +104,7 @@ hr{
   background:orange;
 }
 /*********************************************/
-.song{
+.song1{
  position: relative;
  left: 25%;
  border-radius: 15%;
@@ -142,7 +116,8 @@ hr{
   border-radius: 15%;
   position: relative;
   left: 50%;
-  display: inline-block;
+  display: inline-block; /*Does not add a line-break after the element,
+   so that element can sit next to other element*/
 }
 /*********************************************/
 .iverson {
@@ -152,20 +127,35 @@ border-radius: 15%;
  padding: 4px;
  background:orange;
 }
+ /*********************************************/
+  h1{
+    text-shadow: 5px 5px black;
+    font-family:"Lobster";
+    font-size: 110px;
+    text-align: center;
+    color: White;
+  }
 /*********************************************/
-footer{
-  background: orange;
-  max-width: 100%;
-  height: 50px;
-  bottom: 0;
-  position: relative;
+h2{
+  font-family: "Lobster";
   color: white;
+  font-size: 50px;
   text-align: center;
+  margin-top: 200px;
+  text-shadow: 3px 3px red;
+  text-decoration: overline; /*Puts a line on top of the text*/
+}
+/*********************************************/
+h3{
+  font-size: 25px;
+   text-shadow: 3px 3px brown;
+  font-family: helvetica;
+  height: 300px;
+  padding: 50px;
+  border: 50px;
+  color: White;
   margin-top: 25px;
-  font-family: Lobster;
-  font-size: 40px;
-  text-decoration: overline;
-  text-shadow: 3px 3px black;
+  text-align: center;
 }
 /*********************************************/
 h4{
@@ -174,7 +164,7 @@ h4{
   color: white;
   text-align:center;
   margin-bottom: 150px;
-  text-decoration: underline;
+  text-decoration: underline; /*Puts a line under the text*/
   text-shadow: 3px 3px orange;
 }
 /*********************************************/
@@ -186,3 +176,19 @@ h5{
   text-align: center;
   text-decoration: overline;
 }
+/*********************************************/
+footer{
+  background: orange;
+  width: 100%;
+  height: 50px;
+  bottom: 0; /*Puts it at the bottom of the page*/
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  font-family: Lobster;
+  font-size: 40px;
+  text-decoration: overline;
+  text-shadow: 3px 3px black;
+}
+/*********************************************/
